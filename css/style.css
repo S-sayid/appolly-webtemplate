@@ -459,7 +459,7 @@ input#navi{
   transform: translate(-50%, -50%);
   z-index: 9999999;
 }
-.ani, .ani1, .ani2{
+.ani, .ani1, .ani2, .ani3, .ani4{
   width: 55px;
   height: 55px;
   display: inline-block;
@@ -473,33 +473,46 @@ input#navi{
 }
 .ani{
   animation-name: wave;
-  animation-timing-function: ease;
+  animation-timing-function: ease-out;
   animation-delay: 0;
-  animation-duration: 3s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
 }
 .ani1{
   animation-name: wave;
-  animation-timing-function: ease;
-  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-delay: 1s;
 }
 .ani2{
   animation-name: wave;
-  animation-timing-function: ease;
-  animation-duration: 3s;
+  animation-timing-function: ease-out;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
-  animation-delay: 1.5s;
+  animation-delay: 2s;
+}
+.ani3{
+  animation-name: wave;
+  animation-timing-function: ease-out;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 3s;
+}
+.ani4{
+  animation-name: wave;
+  animation-timing-function: ease-out;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 4s;
 }
 @keyframes wave{
   0%{
     transform: scale(1);
     background-color: rgba(255, 255, 255, 1);
-    transform-origin: center center;
   }
   100%{
-    transform: scale(2);
+    transform: scale(2.2);
     background-color:  rgba(255, 255, 255, 0);
   }
 }

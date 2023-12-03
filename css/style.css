@@ -935,6 +935,7 @@ input#navi{
 }
 .sin-blog.blg-two {
     width: 100%;
+    box-shadow: none;
 }
 .blg-content ul{
   display: flex;

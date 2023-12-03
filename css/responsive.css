@@ -146,23 +146,23 @@
 	.conta-nav a{
 		width: 45%;
 	}
-	.ban-right {
-    width: 40%;
-    overflow: hidden;
-	}
-	.ban-right {
-	    width: 40%;
-	    margin-right: -42px;
-	}
+	
 	.ban-left {
 	    width: 90%;
+	    margin-bottom: 40px;
 	}
 	.ban-right {
 	    width: 95%;
-	    transform: translateX(23%);
+	    
+	}
+	.ban-right img{
+		transform: translateX(15%);
 	}
 	.ban-left img {
 	    min-width: 100%;
+	}
+	.ban-left {
+		margin-left: 20px;
 	}
 	.ban-txt {
 	    width: 100%;
@@ -353,6 +353,22 @@
     	flex-wrap: wrap;
 	}
 }
+@media (max-width: 750px){
+		.cus-main {
+    padding-bottom: 104px;
+}
+	
+}
+@media (max-width: 577px){
+	.cus-main {
+    padding-bottom: 130px;
+}
+}
+@media (max-width: 466px){
+	.cus-main {
+    padding-bottom: 150px;
+}
+}
 @media (max-width: 572px){
 	.wed-res{
 		width: 100%;
@@ -367,5 +383,34 @@
 @media (max-width: 550px){
 	.use-banner{
 		width: 350px;
+	}
+	.sim-left{
+		margin-bottom: 20px;
+	}
+	.sim-left,
+	.sim-right{
+		width: 100%;
+	}
+	.sim-left img,
+	.sim-right img{
+		width: 100%;
+	}
+}
+@media (max-width: 510px){
+	.ban-txt {
+    width: 105%;
+    height: calc(100% - 50px);
+    top: 24px;
+    padding: 40px 35px;
+}
+
+
+}
+@media (max-width: 454px){
+	.ban-txt h2{
+		font-size: 25px;
+	}
+	.ban-txt h4{
+		font-size: 20px;
 	}
 }

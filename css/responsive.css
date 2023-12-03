@@ -56,10 +56,6 @@
 	.ban-txt h2 {
     margin-top: -12px;
 }
-	.ani, .ani1, .ani2, .ani3, .ani4{
-		top: 41%;
-		left: 44%;
-	}
 
 }
 @media (max-width: 1160px){
@@ -317,6 +313,7 @@
 	.use-banner{
 		width: 450px;
 	}
+	
 	/* blog section */
 	.all-blog {
 		width: 100%;
@@ -365,5 +362,10 @@
 	}
 	.wed-tag{
 		width: 100%;
+	}
+}
+@media (max-width: 550px){
+	.use-banner{
+		width: 350px;
 	}
 }
